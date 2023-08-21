@@ -6,7 +6,7 @@
 
 // Array Associative
 // definisinya sama seperti array numerik, kecuali
-// key-nya adalah string yg kita bua sendiri
+// key-nya adalah string yg kita buat sendiri
 $mahasiswa = [
     [
     "nama" => "M.Zanuar Prasetyo",
