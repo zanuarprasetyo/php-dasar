@@ -32,6 +32,7 @@ $mahasiswa = [ //pembungkus pertama ini adalah array numerik
 ];
 
 // cara memanggil dengan cara mencampurkan array numerik dan Associative
+// jika ingin menampilkan (Teknik Kendaraan Ringan Otomotif)
 
 ?>
 <!DOCTYPE html>
