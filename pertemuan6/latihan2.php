@@ -27,13 +27,18 @@ $mahasiswa = [ //pembungkus pertama ini adalah array numerik
         "nrp" => "005876548",
         "email" => "aryadna@gmail.com",
         "jurusan" => "Rekayasa Perangkat Lunak",
-        "gambar" => "dana.jpg"
+        "gambar" => "dana.jpg",
+        "tugas" => [90,75,100]
         ]
 ];
 
 // cara memanggil dengan cara mencampurkan array numerik dan Associative
 // jika ingin menampilkan (Teknik Kendaraan Ringan Otomotif)
 echo $mahasiswa[1]["jurusan"];
+
+// jika ingin menampilkan atau manggil array di dlm array lagi (array multidimensi)
+// akan tampil nilai tugas 75
+echo $mahasiswa[2]["tugas"][1];
 
 ?>
 <!DOCTYPE html>
