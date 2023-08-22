@@ -7,7 +7,7 @@
 // Array Associative
 // definisinya sama seperti array numerik, kecuali
 // key-nya adalah string yg kita buat sendiri
-$mahasiswa = [
+$mahasiswa = [ //pembungkus pertama ini adalah array numerik
     [
     "nama" => "M.Zanuar Prasetyo",
     "nrp" => "009876511",
