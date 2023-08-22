@@ -8,7 +8,7 @@
 // definisinya sama seperti array numerik, kecuali
 // key-nya adalah string yg kita buat sendiri
 $mahasiswa = [ //pembungkus pertama ini adalah array numerik
-    [
+    [ // pembungkus kedua ini adalah array pembungkus pertama array numerik
     "nama" => "M.Zanuar Prasetyo",
     "nrp" => "009876511",
     "email" => "mznuar@gmail.com",
