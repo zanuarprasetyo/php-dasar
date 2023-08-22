@@ -46,7 +46,7 @@ $mahasiswa = [
             <img src="img/<?= $mhs["gambar"]; ?>">
             </li>
         <li>Nama : <?= $mhs["nama"]; ?></li>
-          <li>No : <?= $mhs["nrp"]; ?></li>
+          <li>NRP : <?= $mhs["nrp"]; ?></li>
           <li>Email : <?= $mhs["email"]; ?></li>
           <li>Jurusan : <?= $mhs["jurusan"]; ?></li>
         </ul>
